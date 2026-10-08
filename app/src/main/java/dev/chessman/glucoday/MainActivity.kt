@@ -49,7 +49,9 @@ class MainActivity : ComponentActivity() {
                     val light = background.luminance() > 0.5f
                     WindowCompat.getInsetsController(window, window.decorView).apply { isAppearanceLightStatusBars = light; isAppearanceLightNavigationBars = light }
                 }
-                GlucoApp(model, incoming) { incoming.value = null }
+                Surface(Modifier.fillMaxSize(), color = background) {
+                    GlucoApp(model, incoming) { incoming.value = null }
+                }
             }
         }
     }

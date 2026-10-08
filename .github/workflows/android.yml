@@ -16,7 +16,7 @@ jobs:
           java-version: '17'
       - uses: android-actions/setup-android@v4
         with:
-          accept-android-sdk-licenses: 'no'
+          accept-android-sdk-licenses: 'false'
           packages: 'platform-tools platforms;android-36 build-tools;35.0.0'
       - uses: gradle/actions/setup-gradle@v4
       - run: chmod +x gradlew
