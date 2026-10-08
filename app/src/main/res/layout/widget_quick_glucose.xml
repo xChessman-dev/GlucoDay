@@ -1,0 +1,7 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_add" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center_vertical" android:padding="18dp"
+    android:background="@drawable/widget_background" android:contentDescription="Добавить сахар в GlucoDay">
+    <TextView android:id="@+id/widget_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="+ Добавить сахар" android:textSize="18sp" android:textStyle="bold" android:textColor="#DDF6EB"/>
+    <TextView android:id="@+id/widget_subtitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text="GlucoDay · быстрый ввод" android:textSize="12sp" android:textColor="#B9D1C5"/>
+</LinearLayout>
